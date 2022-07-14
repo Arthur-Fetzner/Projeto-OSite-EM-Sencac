@@ -73,6 +73,18 @@ main div div article{
 main aside{
     width: 28%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+main aside div{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 1px solid black;
 }
 
