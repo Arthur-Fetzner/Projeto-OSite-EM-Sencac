@@ -1,20 +1,20 @@
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-header{
+header {
     display: flex;
     flex-direction: column;
     background-color: gray;
 }
 
-header nav{
+header nav {
     margin-top: 175px;
     height: 50px;
     background-color: black;
@@ -22,7 +22,7 @@ header nav{
     justify-content: center;
 }
 
-header nav ul{
+header nav ul {
     list-style: none;
     color: white;
     display: flex;
@@ -30,11 +30,11 @@ header nav ul{
     gap: 20px;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: white;
 }
 
-main{
+main {
     width: 98%;
     height: 800px;
     align-self: center;
@@ -42,7 +42,7 @@ main{
     justify-content: space-between;
 }
 
-main div{
+main div {
     width: 70%;
     height: 100%;
     display: flex;
@@ -50,13 +50,13 @@ main div{
     justify-content: space-between;
 }
 
-main div article{
+main div article {
     width: 100%;
     height: 40%;
     border: 1px solid black;
 }
 
-main div div{
+main div div {
     width: 100%;
     height: 56%;
     display: flex;
@@ -64,19 +64,49 @@ main div div{
     justify-content: space-between;
 }
 
-main div div article{
+main div div article {
     width: 48%;
     height: 100%;
     border: 1px solid black;
 }
 
-main aside{
+article {
+    background-color: grey;
+}
+
+article section {
+    background-color: black;
+    margin-top: -21px;
+    height: 50px;
+}
+
+article section h1 {
+    color: white;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+article img {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 400px;
+}
+
+article p {
+    color: white;
+    width: 60%;
+    position: relative;
+    top: -50%;
+    left: 38%;
+}
+
+main aside {
     width: 28%;
     height: 100%;
     border: 1px solid black;
 }
 
-footer{
+footer {
     width: 100%;
     height: 40px;
     background-color: rgb(43, 43, 43);
