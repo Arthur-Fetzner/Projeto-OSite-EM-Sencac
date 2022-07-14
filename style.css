@@ -1,0 +1,87 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+header nav{
+    margin-top: 175px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a{
+    color: white;
+}
+
+main{
+    width: 98%;
+    height: 800px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+main div{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main div article{
+    width: 100%;
+    height: 40%;
+    border: 1px solid black;
+}
+
+main div div{
+    width: 100%;
+    height: 56%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main div div article{
+    width: 48%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+main aside{
+    width: 28%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
