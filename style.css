@@ -9,8 +9,6 @@ body{
 }
 
 header{
-    display: flex;
-    flex-direction: column;
     background-color: gray;
 }
 
@@ -32,6 +30,10 @@ header nav ul{
 
 header nav ul li a{
     color: white;
+}
+
+header nav ul li a:hover{
+    text-decoration: overline;
 }
 
 main{
@@ -73,7 +75,96 @@ main div div article{
 main aside{
     width: 28%;
     height: 100%;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+main aside div{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main aside div input{
+    height: 40px;
+}
+
+main aside div article{
+    height: 40%;
+    background-color: white;
+}
+
+main aside div article div{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+main aside div article div h3{
+    color: white;
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+
+main aside div article ul{
+    margin: 0;
+    height: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+main aside div article ul li a{
+    color: black;
+}
+
+main aside div article ul li a:hover{
+    color: cadetblue;
+}
+
+main aside div div{
+    width: 100%;
+    height: 40%;    
+}
+
+main aside div div div{
+    flex-grow: 0;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+}
+
+main aside div div div div{
+    width: 45%;
+    height: 100%;
+    cursor: pointer;
+}
+
+main aside div div div:first-child div:first-child{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_EcFVt9xVd1Gm08_RLpNpQaMTfIQj48gzrA&usqp=CAU');
+    background-size: cover;
+}
+
+main aside div div div:first-child div:last-child{
+    background: url('https://pbs.twimg.com/profile_images/1202938752387170304/Z0TlRM6d_400x400.jpg');
+    background-size: cover;
+}
+
+main aside div div div:last-child div:first-child{
+    background: url('https://pbs.twimg.com/profile_images/1370101710979481601/jrDVpipF_400x400.jpg');
+    background-size: cover;
+}
+
+main aside div div div:last-child div:last-child{
+    background: url('https://i.ytimg.com/vi/n3CACvgFLIc/mqdefault.jpg');
+    background-size: cover;
 }
 
 footer{
